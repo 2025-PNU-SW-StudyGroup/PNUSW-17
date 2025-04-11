@@ -1,249 +1,122 @@
-# Template for Study Group
-이 레파지토리는 참여자들이 학습공동체 결과물을 위한 레파지토리 생성시에 참고할 내용들을 담고 있습니다.
-1. 레파지토리 생성
-2. 레파지토리 구성
-3. README.md 가이드라인
-4. README.md 작성팁
-<br/>
-
-
-## 1. 레파지토리 생성
-
-- https://classroom.github.com/a/wUrpZB4m
-- 위 Github Classroom 링크에 접속해 본인 조의 github 레파지토리를 생성하세요.
-  <img src="https://github.com/user-attachments/assets/d82da173-34a9-4adf-82e6-b712c59ecc70" width="600px" alt="classroom에서 팀 생성 그림"/>
-- 레파지토리 생성 시 팀 이름은 `{조번호}` 형식으로 생성하세요.
-- 예를 들어, 3조의 팀명은 `03` 입니다.
-- 이 경우 `PNUSW-03`이라는 이름으로 레포지토리가 생성됩니다.
-- 팀원의 경우 생성되어 있는 팀에 참가해주세요. <br/>
-  팀에 참가하지 않았을 경우, 레포지토리에 대한 권한이 없어 PR 및 commit이 막힐 수 있습니다.
-  <img src="https://github.com/user-attachments/assets/e1eece39-9d07-485a-aadf-74479ee85d90" width="600px" alt="classroom에서 팀 참여 그림"/>
-<br/>
-
-
-## 2. 레파지토리 구성
-- 레파지토리 내에 `README.md` 파일 생성하고 아래의 가이드라인과 작성팁을 참고하여 파일을 작성하세요.
-- 레파지토리 내에 `docs` 폴더를 생성하고 폴더 내에는 과제 수행 하면서 작성한 각종 보고서, 발표자료를 올려둡니다.
-- 그 밖에 레파지토리의 폴더 구성은 과제 결과물에 따라 자유롭게 구성하되 가급적 코드의 목적이나 기능에 따라 폴더를 나누어 구성하세요.  
-<br/>
-
-
-## 3. README.md 가이드라인
-- README 파일 작성시에 아래의 5가지 항목의 내용은 필수적으로 포함해야 합니다.
-- 아래의 7가지 항목이외에 프로젝트의 이해를 돕기위한 내용을 추가해도 됩니다.
-- `SAMPLE_README.md`가 단순한 형태의 예제이니 참고하세요.
-```markdown
 ### 1. 프로젝트 소개
 #### 1.1. 개발배경 및 필요성
-> 프로젝트를 실행하게 된 배경 및 필요성을 작성하세요.
+최근 대한민국에서 발생한 대형 산불은 많은 인명과 재산 피해를 야기하며, 재난 대응의 중요성을 다시금 일깨웠습니다. 산불과 같은 자연 재해는 매우 빠르게 확산되기 때문에 초기 대응이 무엇보다 중요하지만, 정보 부족으로 인해 신속한 대처가 어려운 경우가 많습니다. 특히 지방에서 발생한 산불은 외부에서 상황을 실시간으로 파악하기 어려워, 피해가 더욱 커질 수 있습니다.
 
-#### 1.2. 개발 목표 및 주요 내용
-> 프로젝트의 목표 및 주요 내용을 작성하세요.
+기존의 재난 알림 시스템은 뉴스나 방송 등 간접적인 전달 방식에 의존하고 있어, 정확한 대피소 정보나 대처 방법을 실시간으로 제공하는 데 한계가 있습니다. 또한 현재의 재난 대응 시스템은 대규모 사고 중심으로 구축되어 있어, 개인화된 빠른 정보 제공이나 일상적인 재난 대비 기능은 부족한 실정입니다.
+
+이에 따라, 보다 세분화되고 개인 맞춤형으로 정보를 제공하는 재난 대응 시스템이 필요합니다. 본 프로젝트는 사용자에게 실시간 경고, 대피 경로 안내, 위급 상황 대처법 등을 종합적으로 제공하는 애플리케이션을 개발하여, 위기 상황에서도 혼란 없이 빠르고 안전하게 대처할 수 있도록 돕고자 합니다.
+
+ResQ는 이러한 문제를 해결하기 위해 개인 맞춤형 재난 정보와 대피소 위치, 대처 방법 등을 실시간으로 제공하여 혼란을 줄이고, 사용자들이 안전하게 대응할 수 있도록 지원합니다.
+<br/>
+
+#### 1.2. 개발목표 및 주요내용
+- 사용자 위치 기반의 실시간 대피소 알림
+- 재난 상황별 대처 방법 실시간 알림
+- 지역 커뮤니티 기능으로 정보 공유 강화
+- 공공데이터 API를 통해 실시간 재난 정보 시각화 제공
+<br/>
 
 #### 1.3. 세부내용
-> 위 내용을 작성하세요.
+- 위치 기반 대피소 제공
+- 실시간 커뮤니티(사진 및 게시글)
+- 공공데이터포털 API를 활용한 실시간 시각화
+- Flutter 기반 모바일 앱
+<br/>
 
-#### 1.4. 기존 서비스 대비 차별성
-> 위 내용을 작성하세요.
+#### 1.4. 기존 서비스(상품) 대비 차별성
+기존의 재난 알림 서비스는 단순한 알람 제공에 그쳐, 지역별 상세 상황 파악이 어려웠습니다. 반면 본 프로젝트에서는 지도 기반의 직관적인 시각화를 통해 피해 지역과 위험 지역을 명확히 구분하여 제공합니다.
 
-#### 1.5. 사회적가치 도입 계획
-> 위 내용을 작성하세요.
+또한 기존에는 재난 상황을 전용 커뮤니티에서 확인할 수 없어, 뉴스나 종합 커뮤니티를 통해 번거롭게 정보를 찾아야 했습니다. 본 앱은 재난 상황 전용 커뮤니티 기능을 제공함으로써, 사용자가 지역별로 사진과 글을 쉽게 검색하고, 피해 심각도를 직관적으로 판단할 수 있도록 도와줍니다.
+<br/>
+
+#### 1.5. 사회적가지 도입 계획
+본 앱은 재난 발생 시 사용자에게 가까운 대피소 정보와 실시간 대처 방법을 제공함으로써, 생명과 안전을 보호하는 데 기여합니다. 특히 산불이나 산사태에 취약한 부산대학교와 같은 지역에서는 재난 발생 시 큰 혼란이 발생할 수 있는데, 본 앱은 이러한 상황에서도 캠퍼스 내 빠른 대응을 유도할 수 있도록 설계되었습니다.
+
+또한 위치 기반 데이터 분석을 통해 사용자 맞춤형 재난 정보를 제공하고, 사용자 피드백을 반영하여 지속적으로 대처 방법을 개선해 나갑니다. 이를 통해 지역별 맞춤 알림과 사용자 중심 서비스를 실현하여, 보다 효과적이고 체계적인 재난 대응을 지원합니다.
+<br/>
 
 
-### 2. 상세설계
+### 2.상세설계
 #### 2.1. 시스템 구성도
-> 시스템 구성도(infra, front, back등의 node 간의 관계)의 사진을 삽입하세요.
+<img width="600px" alt="시스템 구성도" src="">
+<br/>
 
-#### 2.1. 사용 기술
-> 스택 별(backend, frontend, designer등) 사용한 기술 및 버전을 작성하세요.
-> 
-> ex) React.Js - React14, Node.js - v20.0.2
+#### 2.3. 사용기술
+| 구분        | 기술 스택                      |
+|-------------|-------------------------------|
+| Frontend    | Flutter, Dart                 |
+| Backend     | FastAPI, Python               |
+| Database    | MySQL                         |
+| Infra       | AWS, Nginx, Redis             |
+| ETC         | HTML, CSS                     |
+<br/>
+
 
 ### 3. 개발결과
 #### 3.1. 전체시스템 흐름도
-> 위 내용을 작성하세요.
+- 유저 플로우 차트
+<img width="400px" alt="유저 플로우 차트" src="" />
+
+- 테스크 플로우 차트
+<img width="400px" alt="테스크 플로우 차트" src="" />
+
+- 시스템 플로우 차트
+<img width="600px" alt="시스템 플로우 차트" src="" />
+
+- IA(Information Architecture)
+<img width="600px" alt="IA" src="" />
+<br/>
 
 #### 3.2. 기능설명
-> 각 페이지 마다 사용자의 입력의 종류와 입력에 따른 결과 설명 및 시연 영상.
-> 
-> ex. 로그인 페이지:
-> 
-> - 이메일 주소와 비밀번호를 입력하면 입력창에서 유효성 검사가 진행됩니다.
-> 
-> - 요효성 검사를 통과하지 못한 경우, 각 경고 문구가 입력창 하단에 표시됩니다.
->   
-> - 유효성 검사를 통과한 경우, 로그인 버튼이 활성화 됩니다.
->   
-> - 로그인 버튼을 클릭 시, 입력한 이메일 주소와 비밀번호에 대한 계정이 있는지 확인합니다.
->   
-> - 계정이 없는 경우, 경고문구가 나타납니다.
->
-> (영상)
+##### ` 메인 페이지 `
+<br/>
+
 
 #### 3.3. 기능명세서
-> 개발한 제품에 대한 기능명세서를 작성해 제출하세요.
-> 
-> 노션 링크, 한글 문서, pdf 파일, 구글 스프레드 시트 등...
+<img width="200px" alt="이미지" src="" />
+
+|라벨|이름|상세|
+|:---:|:----------------------------:|:---|
+|   |               |  |
+<br/>
 
 #### 3.4. 디렉토리 구조
-> 위 레포지토리의 디렉토리 구조를 설명하세요.
+```
+```
+<br/>
+
 
 ### 4. 설치 및 사용 방법
-> 제품을 설치하기 위헤 필요한 소프트웨어 및 설치 방법을 작성하세요.
->
-> 제품을 설치하고 난 후, 실행 할 수 있는 방법을 작성하세요.
+**필요 패키지**
 
-### 5. 소개 및 시연 영상
-> 프로젝트에 대한 소개와 시연 영상을 넣으세요.
-> 프로젝트 소개 동영상을 교육원 메일(swedu@pusan.ac.kr)로 제출 이후 센터에서 부여받은 youtube URL주소를 넣으세요.
+```bash
+```
+<br/>
+
+
+### 5. 소개 및 시연영상
+[<img width="700px" alt="소개 및 시연영상" src="" />]
+
+<br/>
 
 ### 6. 팀 소개
-> 팀원 소개 & 구성원 별 역할 분담 & 간단한 연락처를 작성하세요.
+| **임나빈** | **박지은** | **판킨킨자우** | **황수민** |
+|:-:|:-:|:-:|:-:|
+| <img src="https://github.com/ddoed.png" width="100" height="100"> | <img src="https://github.com/phlox22.png" width="100" height="100"> | <img src="https://github.com/pankhin.png" width="100" height="100"> | <img src="https://github.com/hsuminsm.png" width="100" height="100">
+| **팀장 </br>백엔드 개발** | **백엔드 개발** | **프론트엔드 개발** | **프론트엔드 개발** |
+| [Github](https://github.com/ddoed) | [Github](https://github.com/phlox22) | [Github](https://github.com/pankhin) | [Github](https://github.com/hsuminsm) |
+| ddoed2201@pusan.ac.kr | phlox22@pusan.ac.kr | pankhin12@pusan.ac.kr | hhy9706@naver.com |
+
+
+<br/>
+
 
 ### 7. 해커톤 참여 후기
-> 팀원 별 해커톤 참여 후기를 작성하세요.
-```
-<br/>
-
-
-## 4. README.md 작성 팁
-- 마크다운 언어를 이용해 README.md 파일을 작성할 때 참고할 수 있는 마크다운 언어 문법을 공유합니다.
-- 다양한 예제와 보다 자세한 문법은 [이 문서](https://www.markdownguide.org/basic-syntax/)를 참고하세요.
-
-### 4.1. 헤더 Header
-```
-# This is a Header 1
-## This is a Header 2
-### This is a Header 3
-#### This is a Header 4
-##### This is a Header 5
-###### This is a Header 6
-####### This is a Header 7 은 지원되지 않습니다.
-```
-
-# This is a Header 1
-## This is a Header 2
-### This is a Header 3
-#### This is a Header 4
-##### This is a Header 5
-###### This is a Header 6
-####### This is a Header 7 은 지원되지 않습니다.
-<br />
-
-### 4.2. 인용문 BlockQuote
-```
-> This is a first blockqute.
->	> This is a second blockqute.
->	>	> This is a third blockqute.
-```
-> This is a first blockqute.
->	> This is a second blockqute.
->	>	> This is a third blockqute.
-<br />
-
-### 4.3. 목록 List
-* **Ordered List**
-```
-1. first
-2. second
-3. third  
-```
-1. first
-2. second
-3. third
-<br />
-
-* **Unordered List**
-```
-* 하나
-  * 둘
-
-+ 하나
-  + 둘
-
-- 하나
-  - 둘
-```
-* 하나
-  * 둘
-
-+ 하나
-  + 둘
-
-- 하나
-  - 둘
-<br />
-
-### 4.4. 코드 CodeBlock
-* 코드 블럭 이용 '``'
-```
-여러줄 주석 "```" 이용
-"```
-#include <stdio.h>
-int main(void){
-  printf("Hello world!");
-  return 0;
-}
-```"
-
-단어 주석 "`" 이용
-"`Hello world`"
-
-* 큰 따움표(") 없이 사용하세요.
-``` 
-<br />
-
-### 4.5. 링크 Link
-```
-[Title](link)
-[부산대 소프트웨어융합교육원](https://swedu.pusan.ac.kr/swedu/index.do)
-
-<link>
-<https://swedu.pusan.ac.kr>
-``` 
-[부산대 소프트웨어융합교육원](https://swedu.pusan.ac.kr)
-
-<https://swedu.pusan.ac.kr>  
-<br />
-
-### 4.6. 강조 Highlighting
-```
-*single asterisks*
-_single underscores_
-**double asterisks**
-__double underscores__
-~~cancelline~~
-```
-*single asterisks* <br />
-_single underscores_ <br />
-**double asterisks** <br />
-__double underscores__ <br />
-~~cancelline~~  <br />
-<br />
-
-### 4.7. 이미지 Image
-```
-<img src="/path/to/img.jpg" width="600px" title="Title" alt="Alt text"></img>
-![Alt text](/path/to/img.jpg "Optional title")
-```
-<img src="https://github.com/pnuswedu/SW-Hackathon-2024/assets/34933690/be7beb64-490f-4480-b121-f25cde7f2a8d" width="600px" title="부산대학교 소프트웨어융합교육원" alt="부산대학교 소프트웨어융합교육원"></img>
-<br/>
-![부산대학교 소프트웨어융합교육원](https://github.com/pnuswedu/SW-Hackathon-2024/assets/34933690/884154bb-28f6-4498-9f64-a8a878972951, "부산대학교 소프트웨어융합교육원")
-<br/>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+- **임나빈**  
+  > 작성 예정
+- **박지은**  
+  > 작성 예정
+- **황수민**  
+  > 작성 예정
+- **판킨킨자우**  
+  > 작성 예정
