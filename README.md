@@ -1,3 +1,10 @@
+### Organization Repository URL
+현재 SW 공동체 레포는 Docs만 업로드 되어있으며, 실제 개발은 Organization 레포지토리에서 통합 관리하고 있습니다. <br>
+**[ResQ-404Found](https://github.com/orgs/ResQ-404Found/repositories)**
+<br>
+
+---
+
 ### 1. 프로젝트 소개
 #### 1.1. 개발 배경 및 동기
 #### □ 개발 배경</br>
