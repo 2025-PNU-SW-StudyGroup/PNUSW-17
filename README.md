@@ -492,6 +492,7 @@ project-root/
 <br>
   
 ### 5. 소개 및 시연영상
+[시연영상](https://drive.google.com/file/d/1MWooyrD5R1Eo91gecmcI3JAxuJjvRuCb/view?usp=sharing)
 
 <br/>
 
