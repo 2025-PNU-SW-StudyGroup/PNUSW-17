@@ -488,9 +488,7 @@ project-root/
 
 
 ### 4. 설치 및 사용 방법
-- [Frontend GitHub Repo](https://github.com/ResQ-404Found/ResQ-Frontend)  
-- [Backend GitHub Repo](https://github.com/ResQ-404Found/ResQ-Backend)
-
+<img width="200" height="200" alt="frame" src="https://github.com/user-attachments/assets/2f112975-d0b0-4c99-8da4-86b32ab5d0b3" />
 <br>
   
 ### 5. 소개 및 시연영상
@@ -500,11 +498,11 @@ project-root/
 
 ### 6. 팀 소개
 | **임나빈** | **박지은** | **판킨킨자우** | **황수민** |
-|:-:|:-:|:-:|:-:|:-:|
+|:-:|:-:|:-:|:-:|
 | <img src="https://github.com/ddoed.png" width="100" height="100"> | <img src="https://github.com/phlox22.png" width="100" height="100"> | <img src="https://github.com/aintnoway12.png" width="100" height="100"> | <img src="https://github.com/hsuminsm.png" width="100" height="100">| - |
-| **팀장 </br>백엔드 개발** | **백엔드 개발** | **프론트엔드 개발** | **프론트엔드 개발** | **기획 및 디자인** |
-| [Github](https://github.com/ddoed) | [Github](https://github.com/phlox22) | [Github](https://github.com/aintnoway12) | [Github](https://github.com/hsuminsm) | Github |
-| ddoed2201@pusan.ac.kr | phlox22@pusan.ac.kr | pankhin12@pusan.ac.kr | hhy9706@naver.com | sciopathislost@naver.com |
+| **팀장 </br>백엔드 개발** | **백엔드 개발** | **프론트엔드 개발** | **프론트엔드 개발** |
+| [Github](https://github.com/ddoed) | [Github](https://github.com/phlox22) | [Github](https://github.com/aintnoway12) | [Github](https://github.com/hsuminsm) |
+| ddoed2201@pusan.ac.kr | phlox22@pusan.ac.kr | pankhin12@pusan.ac.kr | hhy9706@naver.com |
 
 
 <br/>
